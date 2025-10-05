@@ -1,0 +1,341 @@
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.gradient-background {
+	background: linear-gradient(-45deg, #ffffff, #e0ebfe);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+	
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.nav-link {
+  color: #1160df;
+}
+.nav-link:hover {
+  font-weight: 600;
+  color: #ed4f5d;
+}
+
+.login {
+  background-color: #1160df;
+  color: white;
+  border-radius: 20px;
+  border-width: 1.5px;
+}
+
+.login:hover {
+  background-color: #ed4f5d;
+  border-radius: 20px;
+  color: #fff;
+  border-width: 1.5px;
+}
+
+
+
+.icon-square {
+  width: 4rem;
+  height: 4rem;
+  fill: #fff;
+  background-color: #ed4f5d;
+  border-radius: 50px;
+}
+
+.icon-square .material-symbols-rounded {
+  font-size: 3rem;  /* icon size */
+  color: #fff;   /* icon color */
+  
+}
+
+.btn-custom .material-symbols-rounded {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,   /* Thicker */
+    'GRAD' 100,
+    'opsz' 40;
+}
+
+.btn-custom {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-custom:hover {
+  transform: scale(1.05); /* scales the button by 5% */
+  box-shadow: 0 5px 5px #ebf2fe; /* optional: adds a subtle shadow */
+}
+
+.btn-custom {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem 1rem;
+  border:  solid transparent;
+
+  transition: all 0.2s ease;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.review {
+  font-weight: 400;
+}
+
+.headline {
+  font-size: 40px;
+}
+
+.text-body-emphasis{
+  font-size: 35px;
+  padding-right: 90px;
+
+}
+
+.flexbox {
+  background-color: #eff4fc;
+
+}
+
+.photo > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+ border-radius: 50%;
+}
+
+.text-body-emphasis  {
+  padding-right: 0px;
+}
+
+
+.describe {
+  font-size: 15px;
+}
+
+button.button-color2 {
+  display: inline-flex;       /* flex inside button */      /* vertical center */
+  justify-content: center;    /* horizontal center */
+  gap: 0.5rem;                /* space between icon and text */
+  
+}
+
+button.button-color1 {
+  display: inline-flex;       /* flex inside button */      /* vertical center */
+  justify-content: center;    /* horizontal center */
+  gap: 0.5rem;                /* space between icon and text */
+  
+}
+
+.name {
+  font-weight: 600;
+}
+.button-color1{
+  background-color: #1160df;
+  border-radius: 30px;
+  font-weight: 500;
+  color: #fff;
+  border-width: 1.5px;
+  
+}
+.button-color2{
+  
+  border-radius: 30px;
+  font-weight: 500;
+  color: #1160df;
+  border-color: #1160df;
+  border-width: 1.5px;
+  background-color: transparent;
+
+  
+}
+.button-color1:hover{
+  background-color: #ed4f5d;
+  border-radius: 30px;
+  font-weight: 500;
+  color: #fff;
+  border-width: 1.5px;
+  
+}
+
+
+.button-color2:hover{
+
+  color: #ed4f5d;
+  border-width: 1.5px; 
+  border-color: #ed4f5d;
+  
+}
+
+.button-color:hover {
+  background-color: #f5ee9e;
+}
+
+.button-color-pricing {
+  border-color: #1160df;
+  border-radius: 50px;
+  color: #1160df;
+  border-width: 1.5px;
+   background-color: transparent;
+
+}
+.button-color-pricing:hover {
+  color: #ed4f5d;
+  border-width: 1.5px; 
+  border-color: #ed4f5d;
+
+}
+
+.button-color-pricing-1 {
+  background-color: #1160df;
+  border-radius: 50px;
+  color: #fff;
+  border-width: 1.5px; 
+  text-decoration: none;
+
+}
+
+.btn-explore {
+  border-color: #1160df;
+  border-radius: 50px;
+  color: #1160df;
+  border-width: 1.5px;
+}
+
+.btn-explore:hover {
+  color: #ed4f5d;
+  border-width: 1.5px; 
+  border-color: #ed4f5d;
+}
+
+.material-symbols-rounded {
+  font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 40;
+  vertical-align: middle;
+}
+
+/* For star icon only */
+.material-symbols-rounded.filled-star {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 600,
+    'GRAD' 0,
+    'opsz' 40; /* Optical size (visual weight) */
+  font-size: 20px; /* ⬅️ Force scale */
+  color: #ffc107;  /* Gold star */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.point {
+  color: #c3c7cd;
+}
+
+
+.button-color-pricing-1:hover {
+  background-color: #ed4f5d;
+  border-radius: 30px;
+
+  color: #fff;
+  border-width: 1.5px;
+
+}
+.card-header {
+  background-color: #eff4fc;
+}
+
+.card-header {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+}
+
+.card {
+  border-radius: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.footer {
+  color: #c3c7cd;
+}
+
+.footer:hover {
+  color: #c3c7cd;
+}
+
+.custom-text {
+  color: #171c39 !important;
+}
+
+.hr {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.hr {
+  font-size: 16px;
+  font-weight: 300;
+
+}
+.hr1 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.course-img {
+  width: 100%;         /* fill card width */
+  height: 300px;       /* fixed height */
+  object-fit: cover;   /* crop image, keep aspect ratio */
+  padding: 10px;
+  border-radius: 25px;
+}
+
+
+.badge-basic {
+  background-color: #e0ebfe; /* gray */
+  border-radius: 50px;
+  color: #171c39;
+}
+
+.badge-beginner {
+  background-color: #3078e3; /* blue */
+  border-radius: 50px;
+  
+}
+
+
+.badge-advanced {
+  background-color: #41b37d; /* green */
+  border-radius: 50px;
+}
+
+.badge {
+  font-weight: 500; /* normal */
+}
+
+
+
+
